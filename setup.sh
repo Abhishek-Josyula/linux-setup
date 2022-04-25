@@ -64,6 +64,7 @@
 #echo -e "call plug#end()" >> ~/.vimrc
 #echo -e "syntax on" >> ~/.vimrc
 #echo -e "colorscheme onedark" >> ~/.vimrc
+#echo -e "hi Normal ctermbg=NONE guibg=NONE" >> ~/.vimrc
 
 #sudo dnf -y install emacs
 
@@ -72,12 +73,20 @@
 #bash -c "$(wget https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh -O -)" 
 
 # Setup GNOME THEME
-
-
+#sudo dnf -y install gnome-tweaks gnome-extensions-app
+#sudo dnf install -y gnome-shell-extension-gsconnect nautilus-gsconnect gnome-shell-extension-pop-shell
 
 #echo "LOGIN to GOOGLE and GITHUB."
 #echo "LOGIN to VSCODE"
-#echo "SET fonts"
+#echo "SET fonts to 12 14 16"
+#echo "SET Maximize and Minimize in appearance"
+#echo "Wait for Gnome 42 Themes? Maybe?"
+#echo "SET Terminal font to fira code 16"
+#echo "SET Terminal Fade"
+#echo "Install Blur My Shell from extensions"
+#echo "Remove background Logo"
+#echo "Enable Applications menu"
+
 #echo "Open vim and :PlugInstall"
 #echo "Then :CocInstall coc-json coc-tsserver coc-clangd coc-cmake coc-css coc-docker coc-dot-complete coc-emmet coc-explorer coc-git coc-jedi coc-html coc-html-css-support coc-ltex coc-sh coc-tailwindcss coc-texlab"
 #echo "vim ~/.bashrc  add docker git npm pip3 to completions add pyenv npm git to plugins set theme to modern"
