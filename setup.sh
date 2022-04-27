@@ -12,7 +12,7 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 # Group Installs
 
 # Container management Podman + Docker interface for podman
-sudo dnf install -y @container-management podman-docker
+sudo dnf install -y @container-management podman-docker podman-compose
 
 # C/C++ development tools
 sudo dnf install -y @c-development clang clang-tools-extra clang-analyzer clang-libs make cmake rr iaito devhelp
