@@ -1,5 +1,11 @@
-For fedora only
+# For **FEDORA** Only
 
-Installation: 
-1) chmod u+x setup.sh
-2) sudo ./setup.sh
+> For Installation do
+
+```bash
+git clone 
+
+chmod u+x ./setup.sh
+
+sudo ./setup.sh
+```
