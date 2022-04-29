@@ -27,7 +27,7 @@ sudo dnf install -y pypy python3-pip python3-devel
 sudo dnf install -y lua luarocks luajit
 
 # Set up jsenv
-sudo dnf install -y nodejs 
+sudo dnf install -y nodejs npm  
 
 # Set up latex
 sudo dnf install -y texstudio texlive-scheme-full 
